@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to the WebApp</title>
+    <style>
+        /* General Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #f6d365, #fda085); /* New gradient */
+            color: #333; /* Text color for better contrast */
+        }
+        .bordered-container {
+            width: 90%;
+            max-width: 500px;
+            padding: 30px;
+            border: 5px solid white; /* Adding a visible border */
+            border-radius: 15px;
+            background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
+            backdrop-filter: blur(5px); /* Smooth blur effect */
+            text-align: center;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+        }
+        .bordered-container h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            color: #444; /* Slightly darker for readability */
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+        }
+        .bordered-container p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            color: #555;
+        }
+        .btn {
+            padding: 15px 30px;
+            font-size: 18px;
+            font-weight: bold;
+            color: white;
+            background-color: #ff6b6b; /* New button color */
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: transform 0.3s, background-color 0.4s;
+        }
+        .btn:hover {
+            background-color: #fa5252; /* Slightly darker on hover */
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="bordered-container">
+        <h1>Welcome to WebApp</h1>
+        <p>Experience seamless communication and server management like never before!</p>
+        <a href="login.html"><button class="btn">Get Started</button></a>
+    </div>
+</body>
+</html>
